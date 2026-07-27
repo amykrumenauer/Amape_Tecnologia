@@ -1,21 +1,18 @@
-console.log("AMAPE Tecnologia carregada 🚀");
+const menuToggle = document.getElementById("menuToggle");
+const menu = document.getElementById("menu");
 
+menuToggle.addEventListener("click", () => {
 
-window.addEventListener("scroll",()=>{
+    menu.classList.toggle("active");
 
+});
 
-const header = document.querySelector("header");
+document.querySelectorAll("#menu a").forEach(link => {
 
+    link.addEventListener("click", () => {
 
-if(window.scrollY > 50){
+        menu.classList.remove("active");
 
-header.style.background="#020617f5";
-
-}else{
-
-header.style.background="#020617dd";
-
-}
-
+    });
 
 });
