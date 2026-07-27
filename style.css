@@ -272,11 +272,11 @@ ul a:hover::after{
 
     display:flex;
 
-    justify-content:space-between;
+    justify-content:center;
 
     align-items:center;
 
-    gap:70px;
+    text-align:center;
 
     padding:160px 8% 100px;
 
@@ -286,107 +286,25 @@ ul a:hover::after{
 
 }
 
-.hero::before{
-
-    content:"";
-
-    position:absolute;
-
-    width:420px;
-
-    height:420px;
-
-    right:-80px;
-
-    top:120px;
-
-    border-radius:50%;
-
-    background:
-
-    radial-gradient(circle,
-    rgba(109,40,217,.45),
-    transparent 70%);
-
-    filter:blur(20px);
-
-    z-index:0;
-
-}
-
 .hero-content{
 
     position:relative;
 
     z-index:2;
 
-    flex:1;
-
-}
-
-.hero-image{
-
-    position:relative;
-
-    z-index:2;
-
-    flex:1;
-
-    display:flex;
-
-    justify-content:center;
-
-}
-
-.hero-image img{
+    max-width:900px;
 
     width:100%;
 
-    max-width:520px;
-
-    animation:float 5s ease-in-out infinite;
-
-}
-
-.hero h2{
-
-    font-size:60px;
-
-    line-height:1.15;
-
-    color:white;
-
-    margin-bottom:30px;
-
-    text-shadow:
-
-    0 0 18px rgba(109,40,217,.35);
-
-}
-
-.hero h2 span{
-
-    color:var(--roxo-light);
-
-}
-
-.hero p{
-
-    font-size:19px;
-
-    color:var(--cinza);
-
-    max-width:650px;
-
-    line-height:1.9;
-
-    margin-bottom:45px;
+    margin:0 auto;
 
 }
 
 .hero-buttons{
 
     display:flex;
+
+    justify-content:center;
 
     gap:18px;
 
@@ -706,42 +624,45 @@ section>p{
 
 .diferenciais{
 
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-
-    gap:30px;
-
-    margin-top:40px;
+    text-align:center;
 
 }
 
-.diferencial{
+.diferenciais h2{
 
     text-align:center;
 
-    padding:35px;
+    margin-bottom:25px;
 
 }
 
-.diferencial i{
+.diferenciais > p{
 
-    font-size:42px;
+    max-width:800px;
 
-    color:var(--verde-light);
+    margin:0 auto 50px;
 
-    margin-bottom:20px;
-
-}
-
-.diferencial h3{
-
-    margin-bottom:15px;
-
-    font-size:22px;
+    text-align:center;
 
 }
 
+.diferenciais .cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    justify-content:center;
+
+    align-items:stretch;
+
+    gap:30px;
+
+    max-width:1200px;
+
+    margin:50px auto 0;
+
+}
 
 /* =========================
    MATERIAIS
