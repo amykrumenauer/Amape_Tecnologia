@@ -93,8 +93,8 @@ Plataforma digital desenvolvida para adoção e divulgação de animais.
 
 Tecnologias utilizadas:
 
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge)
+![React](https://img.shields.io/badge/React-8B5CF6?style=for-the-badge)
+![Vite](https://img.shields.io/badge/Vite-22C55E?style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge)
 
 Acesse:
@@ -169,12 +169,7 @@ assets/catalogo-amape.pdf
 
 Site:
 
-Em desenvolvimento
-
-
-WhatsApp:
-
-https://wa.me/5541984745791
+https://portfolio-amanda-lime.vercel.app/
 
 
 Instagram:
@@ -189,7 +184,7 @@ https://linkedin.com/company/amape-tecnologia
 
 E-mail:
 
-amape@gmail.com
+amape.tecnologia@gmail.com
 
 
 ---
