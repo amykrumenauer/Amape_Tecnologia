@@ -157,13 +157,10 @@ Cores utilizadas na marca:
 
 # Materiais Comerciais
 
-Apresentação institucional:
-assets/apresentacao-amape.pdf
+📑 Apresentação Institucional
+📘 Catálogo Comercial
 
----
-
-Catálogo comercial:
-assets/catalogo-amape.pdf
+Os materiais encontram-se disponíveis na pasta assets.
 
 # Contato
 
